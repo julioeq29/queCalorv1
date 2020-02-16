@@ -1,0 +1,30 @@
+/* Importing Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700&display=swap');
+
+/* Importing components */
+/*@import url("components/card.css");*/
+@import url("components/navbar.css");
+@import url("components/buttons.css");
+@import url("components/cards.css");
+@import url("components/forms.css");
+@import url("components/topbar.css");
+
+/* Importing layouts */
+/*@import url("layouts/card.css");*/
+@import url("layouts/welcome.css");
+@import url("layouts/sections.css");
+@import url("layouts/footer.css");
+
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  background: white;
+  color: #36363a;
+}
+
+a {
+  text-decoration: none;
+}
