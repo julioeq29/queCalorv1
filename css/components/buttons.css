@@ -1,0 +1,27 @@
+.btn-subscribe {
+  border: 1px solid #36363a;
+  padding: 14px 34px;
+  border-radius: 8px;
+  color: #36363a;
+  transition: background 0.3s ease;
+}
+
+.btn-subscribe:hover {
+  background-color: #36363a;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-start {
+  border: 1px solid white;
+  padding: 14px 34px;
+  border-radius: 8px;
+  color: white;
+  transition: background 0.3s ease;
+}
+
+.btn-start:hover {
+  background-color: white;
+  color: #36363a;
+  text-decoration: none;
+}
