@@ -1,8 +1,21 @@
+.card-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-welcome img {
+  max-width: 600px;
+  transform: translateX(123px);
+}
+
+
+
 /*.banner {
   height: 600px;
 }*/
 
-.welcome {
+/*.welcome {
   height: 92vh;
   display: flex;
   flex-direction: column;
@@ -25,17 +38,17 @@
   left: 50%;
   right: 50%;
   margin-left: -50vw;
-  margin-right: -50vw;
-  background-image: url('../../images/urban farming rooftop.jpg'), linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
+  margin-right: -50vw;*/
+  /*background-image: url('../../images/urban farming rooftop.jpg'), linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3));
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
   /*margin-bottom: 28px;*/
 }
 
 /*.welcome-img img {
   width: 10;
 }*/
-
+/*
 .welcome-bottom {
   padding-top: 50px;
 }
@@ -43,4 +56,4 @@
 .welcome-bottom a {
   color: #36363a;
   font-size: 44px;
-}
+}*/
