@@ -14,7 +14,8 @@
 
 @media (max-width: 768px) {
   .card-img > img {
-    max-width: 50%;
+    max-width: 80%;
+    margin-top: 105px;
   }
 }
 
@@ -24,10 +25,23 @@
   justify-content: center;
 }
 
+.card-text > h5 {
+  text-align: left;
+}
+
 @media (max-width: 768px) {
   .card-text {
     height: 300px;
-    padding: 0px 30px;
+    padding: 0px 50px;
+  }
+
+  .card-text > h3 {
+  font-size: 26px;
+  }
+
+  .card-text > h5 {
+  font-size: 16px;
+  text-align: left;
   }
 }
 
@@ -55,6 +69,7 @@
 
 .call-to-action h3, h5 {
   margin-bottom: 44px;
+  text-align: center;
 }
 
 
