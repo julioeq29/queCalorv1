@@ -15,19 +15,6 @@
   color: white;
 }*/
 
-.btn-start {
-  border: 1px solid white;
-  padding: 14px 34px;
-  border-radius: 8px;
-  color: white;
-  transition: background 0.3s ease;
-}
-
-.btn-start:hover {
-  background-color: white;
-  color: #36363a;
-  text-decoration: none;
-}
 
 
 .btn-subscribe {
@@ -50,5 +37,30 @@
 .btn-subscribe:hover {
   text-decoration: none;
   box-shadow: none;
+  color: white;
+}
+
+.btn-start {
+  text-decoration: none;
+  border-radius: 100rem;
+  padding: 1rem;
+  /*font-family: 'Avenir Next';*/
+  font-size: 1.1rem;
+  padding: .8rem 3rem;
+  color: white;
+  /*box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);*/
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(150deg, #fd4db7, #f9cb00);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  /*box-shadow: 2px 1000px 1px #fff inset;*/
+  transition: background-image 0.3s ease;
+}
+
+.btn-start:hover {
+  /*background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(150deg, #fd4db7, #f9cb00);*/
+  text-decoration: none;
+  /*background: transparent;*/
+  /*box-shadow: none;*/
   color: white;
 }
