@@ -27,14 +27,13 @@
 
 @media (max-width: 768px) {
   .img-welcome > img {
-    /*max-width: 90%;*/
     margin-top: 68px;
   }
 
   .img-welcome {
     display: flex;
     justify-content: center;
-    max-width: 100%;
+    overflow: hidden;
   }
 }
 
