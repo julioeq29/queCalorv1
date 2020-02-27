@@ -28,6 +28,7 @@
 @media (max-width: 768px) {
   .img-welcome > img {
     margin-top: 68px;
+    max-height: 680px;
   }
 
   .img-welcome {
