@@ -1,7 +1,11 @@
 .banner {
   /*background-color: #3ae89c;
   background: linear-gradient(90deg, #3ae89c 60%, #13234c 60%);*/
-  background: linear-gradient(90deg, #3ae89c  60%, rgba(0,0,0,0) 30%), linear-gradient(0deg, #13234c 33%, #ffffff 33%);
+  background: linear-gradient(90deg, #3ae89c 60%, rgba(0,0,0,0) 30%), 
+              linear-gradient(0deg, #13234c 33%, rgba(0,0,0,0) 30%), 
+              url('../../images/park.png');
+  object-fit: cover;
+  background-position: center;
   height: 100vh;
 }
 
@@ -35,7 +39,7 @@
 .card-welcome-text {
   background-color: #13234c;
   color: white;
-  
+  margin-top: 66vh;  
 }
 
 
