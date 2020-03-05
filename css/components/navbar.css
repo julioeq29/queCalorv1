@@ -16,9 +16,9 @@
 
 @media (max-width: 768px) {
   .navbar-int {
-    /*display: flex;
+    display: flex;
     justify-content: space-between;
-    align-items: baseline;*/
+    align-items: baseline;
     padding-top: 18px;
   }
 
@@ -77,8 +77,8 @@
     justify-content: flex-end;
   }
 
-  .main-nav li {
-    margin: 0;
+  .main-nav ul {
+    margin-top: 44px;
   }
 
   .nav-links {
