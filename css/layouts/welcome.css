@@ -2,7 +2,8 @@
   /*background-color: #3ae89c;
   background: linear-gradient(90deg, #3ae89c 60%, #13234c 60%);*/
   background: linear-gradient(90deg, #3ae89c 60%, rgba(0,0,0,0) 30%), 
-              linear-gradient(0deg, #13234c 33%, rgba(0,0,0,0) 30%), 
+              linear-gradient(0deg, #13234c 33%, rgba(0,0,0,0) 30%),
+              linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)), 
               url('../../images/park.png');
   object-fit: cover;
   background-position: center;
@@ -13,17 +14,23 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 300px;
+  padding-right: 74px;
 }
 
 .card-welcome-left > h1 {
   margin-bottom: 64px;
   color: white;
-  font-size: 66px;
+  font-size: 80px;
+  font-family: 'Noto Serif', serif;
+  font-weight: 400;
 }
 
 .card-welcome-left .buttons {
   margin-top: 100px;
+}
+
+.card-welcome-left .btn-subscribe-1 {
+  margin-right: 42px;
 }
 
 .card-welcome-right {
@@ -31,15 +38,14 @@
   flex-direction: column;
 }
 
-.img-welcome {
-  height: 66%;
-  background-image: url('../../images/urban farming rooftop.jpg')
-}
-
 .card-welcome-text {
   background-color: #13234c;
   color: white;
   margin-top: 66vh;  
+}
+
+.card-welcome-text > p {
+  font-size: 24px;
 }
 
 

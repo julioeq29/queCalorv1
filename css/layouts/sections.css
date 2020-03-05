@@ -6,6 +6,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: url('../../images/footprint-Group1.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 92px;
+}
+
+.card-img-2 {
+  background-image: url('../../images/recom-Group2.png');
+}
+
+.card-img-3 {
+  background-image: url('../../images/dashboard-Group3.png');
+}
+
+.card-img-4 {
+  background-image: url('../../images/stories-Group4.png');
 }
 
 .card-img > img {
@@ -95,7 +112,7 @@
 
 
 .wrapper {
-  padding: 104px 0px;
+  padding: 68px 0px;
 }
 
 .wrapper-1 {
