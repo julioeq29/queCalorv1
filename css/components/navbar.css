@@ -10,15 +10,20 @@
   color: #13234c;
 }
 
-@media (min-width: 768px) {
+.nav-links {
+  color: white !important;
+}
+
+@media (max-width: 768px) {
   .navbar-int {
-    display: flex;
+    /*display: flex;
     justify-content: space-between;
-    align-items: baseline;
-/*    padding-top: 18px;
-*/  }
+    align-items: baseline;*/
+    padding-top: 18px;
+  }
 
   .navbar-int a {
+    /*margin-top: 18px !important;*/
   }
 }
 
@@ -46,10 +51,10 @@
 
 .navbar-toggle {
   position: absolute;
-  top: 18px;
+  /*top: 18px;*/
   right: 20px;
   cursor: pointer;
-  color: #36363a;
+  color: #13234c;
   font-size: 24px;
 }
 

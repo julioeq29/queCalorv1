@@ -32,11 +32,21 @@
 }
 
 @media (max-width: 768px) {
+  .card-img {
+    padding: 0;
+  }
+
   .card-img > img {
-    max-width: 80%;
-    margin-top: 105px;
+    max-width: 64%;
+    margin: 105px;
+  }
+
+  .card-img-2 {
+    background-image: url('../../images/recom-Group2-mobile.png');
   }
 }
+
+/*-------------------------------------------*/
 
 .card-text {
   display: flex;
@@ -66,17 +76,18 @@
 
 @media (max-width: 768px) {
   .card-text {
-    height: 300px;
-    padding: 0px 50px;
+    height: 400px;
+    padding: 0px 36px;
   }
 
   .card-text > h3 {
-  font-size: 26px;
+  font-size: 42px;
   }
 
   .card-text > h5 {
-  font-size: 16px;
+  font-size: 22px;
   text-align: left;
+  width: 95%;
   }
 }
 
@@ -107,6 +118,23 @@
   margin-top: 24px;
 }
 
+@media (max-width: 768px) {
+  .card-text-blue {
+    height: 400px;
+    padding: 0px 36px;
+  }
+
+  .card-text-blue > h3 {
+  font-size: 42px;
+  }
+
+  .card-text-blue > h5 {
+  font-size: 22px;
+  text-align: left;
+  width: 95%;
+  }
+}
+
 
 /*-------------------------------------------*/
 
@@ -122,6 +150,12 @@
 .wrapper-2 {
   border-top: 1px solid #13234c;
   background: linear-gradient(90deg, white 50%, #13234c 50%);
+}
+
+@media (max-width: 768px) {
+  .wrapper-2 {
+    background: #13234c;
+  }
 }
 
 .wrapper-3 {

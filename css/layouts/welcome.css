@@ -46,10 +46,22 @@
 
 .card-welcome-text > p {
   font-size: 24px;
+  font-weight: 100;
+}
+
+.welcome-bottom a {
+  margin-left: 35vw;
+  font-size: 44px;
+  color: #13234c;
+  text-decoration: none;
 }
 
 
 @media (max-width: 768px) {
+  .banner {
+    background: #3ae89c;
+  }
+
   .card-welcome {
     margin-top: 44px;
     padding: 0px 30px;
@@ -58,24 +70,30 @@
   .card-welcome > h5 {
     text-align: left;
   }
-}
 
-.img-welcome img {
-  max-width: 570px;
-  /*transform: translateX(123px);*/
-}
-
-
-@media (max-width: 768px) {
-  .img-welcome > img {
-    margin-top: 68px;
-    max-height: 680px;
+  .card-welcome-left > h1 {
+    font-size: 44px;
+    padding-top: 64px;
   }
 
-  .img-welcome {
+  .card-welcome-left .buttons {
+    margin-top: 18px;
+  }
+
+  .card-welcome-left .btn-subscribe-2 {
+    margin-top: 28px;
+    margin-right: 42px;
+  }
+
+  .buttons {
     display: flex;
-    justify-content: center;
-    overflow: hidden;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 24px;
+  }
+
+  .welcome-bottom a {
+    margin-left: 46vw;
   }
 }
 
