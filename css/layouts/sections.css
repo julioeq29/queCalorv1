@@ -120,6 +120,7 @@
 }
 
 .wrapper-2 {
+  border-top: 1px solid #13234c;
   background: linear-gradient(90deg, white 50%, #13234c 50%);
 }
 
