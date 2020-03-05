@@ -36,6 +36,7 @@
   text-align: left;
   font-size: 32px;
   color: #13234c;
+  width: 85%;
 }
 
 .card-text h3, h5 {
@@ -82,6 +83,11 @@
 .card-text-blue > h5 {
   text-align: left;
   font-size: 32px;
+  width: 85%;
+}
+
+.card-text-blue .button {
+  margin-top: 24px;
 }
 
 

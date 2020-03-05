@@ -1,3 +1,7 @@
+.buttons {
+
+}
+
 .btn-find-more {
   text-decoration: none;
   color: white;
@@ -29,7 +33,81 @@
 }
 
 
+/*-------------------------------------------*/
 
+.btn-subscribe-1 {
+  text-decoration: none;
+  border-radius: 100rem;
+  padding: 1rem;
+  /*font-family: 'Avenir Next';*/
+  font-size: 1.1rem;
+  padding: .8rem 3rem;
+  color: white;
+  border: solid 3px transparent;
+  background-color: #13234c;
+  transition: 0.3s ease;
+}
+
+.btn-subscribe-1:hover {
+  text-decoration: none;
+  box-shadow: none;
+  color: #13234c;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(#13234c, #13234c);
+  background-color: white;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+/*-------------------------------------------*/
+
+.btn-subscribe-2 {
+  text-decoration: none;
+  border-radius: 100rem;
+  padding: 1rem;
+  /*font-family: 'Avenir Next';*/
+  font-size: 1.1rem;
+  padding: .8rem 3rem;
+  color: #13234c;
+  border: solid 3px transparent;
+  background-color: white;
+  transition: 0.3s ease;
+}
+
+.btn-subscribe-2:hover {
+  text-decoration: none;
+  box-shadow: none;
+  color: white;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(#3ae89c, #3ae89c);
+}
+
+/*-------------------------------------------*/
+
+.btn-subscribe-3 {
+  text-decoration: none;
+  border-radius: 100rem;
+  padding: 1rem;
+  /*font-family: 'Avenir Next';*/
+  font-size: 1.1rem;
+  padding: .8rem 3rem;
+  color: white;
+  border: solid 3px transparent;
+  background-color: #3ae89c;
+  transition: 0.3s ease;
+}
+
+.btn-subscribe-3:hover {
+  text-decoration: none;
+  box-shadow: none;
+  color: #3ae89c;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(#3ae89c, #3ae89c);
+  background-color: white;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+}
+
+/*-------------------------------------------*/
 
 .btn-subscribe {
   text-decoration: none;
