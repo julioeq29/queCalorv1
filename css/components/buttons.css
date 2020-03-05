@@ -1,19 +1,33 @@
-.btn-welcome {
-
-}
-
-/*.btn-subscribe {
-  border: 1px solid #36363a;
-  padding: 14px 34px;
-  border-radius: 8px;
-  color: #36363a;
-  transition: background 0.3s ease;
-}
-
-.btn-subscribe:hover {
-  background-color: #36363a;
+.btn-find-more {
+  text-decoration: none;
   color: white;
-}*/
+  background-color: #13234c;
+  padding: 10px 24px;
+  border-radius: 24px;
+  transition: 0.3s ease;
+}
+
+.btn-find-more:hover {
+  text-decoration: none;
+  color: #13234c;
+  background-color: white;
+}
+
+.btn-start-now {
+  text-decoration: none;
+  color: #13234c;
+  background-color: white;
+  padding: 10px 24px;
+  border-radius: 24px;
+  transition: 0.3s ease;
+}
+
+.btn-start-now:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #13234c;
+}
+
 
 
 
