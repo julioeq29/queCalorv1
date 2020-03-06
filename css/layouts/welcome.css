@@ -60,6 +60,57 @@
   text-decoration: none;
 }
 
+/*
+@media (max-width: 992px){
+  .card-welcome-left > h1 {
+    font-size: 80px;
+}
+
+@media (min-width: 767.99px) and (max-width: 991.98px){
+  .card-welcome-left > h1 {
+    font-size: 64px;
+  }*/
+
+/*  .card-welcome-left .buttons {
+    margin-top: 0px;
+  }
+
+  .welcome-bottom {
+    margin-top: 48px;
+  }
+
+  .welcome-bottom a {
+    margin-left: 46vw;
+  }*/
+
+
+@media (max-width: 1024px) {
+  .card-welcome-left > h1 {
+    font-size: 64px;
+    margin-bottom: 0;
+  }
+
+  .card-welcome-left .buttons {
+    margin-top: 62px;
+  }
+
+  .card-welcome-text {
+    margin-top: 450px;
+    margin-left: -24px;
+  }
+
+  .card-welcome-text p {
+    font-size: 20px;
+  }
+
+  .welcome-bottom {
+    margin-top: -26px;
+  }
+
+  .welcome-bottom a {
+    margin-left: 46vw;
+  }
+}
 
 @media (max-width: 768px) {
   .banner {
@@ -75,7 +126,7 @@
   }
 
   .card-welcome-left .buttons {
-    margin-top: 0px;
+    margin-top: 54px;
   }
 
   .welcome-bottom {
