@@ -62,18 +62,12 @@
     background: #3ae89c;
   }
 
-  .card-welcome {
-    margin-top: 44px;
-    padding: 0px 30px;
-  }
-
-  .card-welcome > h5 {
-    text-align: left;
+ .card-welcome-left {
+    margin-top: 34px;
   }
 
   .card-welcome-left > h1 {
     font-size: 44px;
-    padding-top: 44px;
   }
 
   .card-welcome-left .buttons {
