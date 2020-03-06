@@ -97,7 +97,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /*background-color: #13234c;*/
+  padding-left: 50px;
 }
 
 .card-text-blue h3, h5 {
@@ -133,6 +133,14 @@
   text-align: left;
   width: 95%;
   }
+}
+
+
+/*-------------------------------------------*/
+
+
+.card-text-last {
+  padding-left: 50px;
 }
 
 

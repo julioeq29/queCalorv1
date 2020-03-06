@@ -49,6 +49,10 @@
   font-weight: 100;
 }
 
+.welcome-botton {
+  /*padding-bottom: 24px;*/
+}
+
 .welcome-bottom a {
   margin-left: 35vw;
   font-size: 44px;
