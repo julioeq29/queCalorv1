@@ -83,6 +83,29 @@
     margin-left: 46vw;
   }*/
 
+@media (max-width: 1200px) {
+  .card-welcome-left {
+    padding-right: 88px;
+  }
+
+  .card-welcome-left > h1 {
+    font-size: 74px;
+    margin-bottom: 0;
+  }
+
+  .card-welcome-text {
+    margin-top: 636px;
+    margin-left: -24px;
+  }
+
+  .welcome-bottom {
+    margin-top: -26px;
+  }
+
+  .welcome-bottom a {
+    margin-left: 43vw;
+  }
+}
 
 @media (max-width: 1024px) {
   .card-welcome-left > h1 {
