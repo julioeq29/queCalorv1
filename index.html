@@ -35,6 +35,28 @@
       </nav>
     </div>
 
+
+   <!--  <div class="d-flex justify-content-between w-100 navbar-lewagon">
+     <div>
+        <div class="button_container" id="toggle">
+          <span class="top"></span>
+          <span class="middle"></span>
+          <span class="bottom"></span>
+        </div>
+      </div>
+      <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+         <ul>
+           <li>about</li>
+           <li>contact</li>
+         </ul>
+        </nav>
+      </div>
+      <div class="logo-position">
+        <a href="#" class="logo"><span class="logo-text-white">que</span>Calor</a>
+      </div>
+    </div> -->
+
     <!-- Welcome -->
     <div class="container">
       <div class="row">
@@ -119,7 +141,7 @@
           <img src="./images/stories copy.jpg" alt="">
         </div>
         <div class="col-12 col-md-6 order-md-12 card-text card-text-last">
-          <h3>Contribute your ideas to the community.</h3>
+          <h3>Contribute to the community.</h3>
           <h5>Share how you're are achiveing a positive impact to help others in our community make a difference. Every action matters.</h5>
           <div class="button">
             <a href="#" class="btn-subscribe-3">Start now</a>
@@ -184,20 +206,20 @@
     </div>
   </footer>
 
-  <!-- Ribbon -->
- <!--  <div class="footer-ribbon">
-    <div class="container">
-      <p>London 2020</p>
-    </div>
-  </div> -->
-
   <script>
+    $('#toggle').click(function() {
+      $(this).toggleClass('active');
+      $('#overlay').toggleClass('open');
+    });
+  </script>
+  
+  <!-- <script>
     let mainNav = document.getElementById('js-menu');
     let navBarToggle = document.getElementById('js-navbar-toggle');
 
     navBarToggle.addEventListener('click', function () {
       mainNav.classList.toggle('active');
     });
-  </script>
+  </script> -->
 
 </body>

@@ -6,7 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('../../images/footprint-Group1.png');
+  background-image: url('../../images/group1.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,15 +14,15 @@
 }
 
 .card-img-2 {
-  background-image: url('../../images/recom-Group2.png');
+  background-image: url('../../images/group2.png');
 }
 
 .card-img-3 {
-  background-image: url('../../images/dashboard-Group3.png');
+  background-image: url('../../images/group3.png');
 }
 
 .card-img-4 {
-  background-image: url('../../images/stories-Group4.png');
+  background-image: url('../../images/group4.png');
 }
 
 .card-img > img {
@@ -42,7 +42,7 @@
   }
 
   .card-img-2 {
-    background-image: url('../../images/recom-Group2-mobile.png');
+    background-image: url('../../images/group2-mobile.png');
   }
 }
 
@@ -143,6 +143,12 @@
   padding-left: 50px;
 }
 
+@media (max-width: 768px) {
+  .card-text-last > h3 {
+    font-size: 39px;
+  }
+}
+
 
 /*-------------------------------------------*/
 
@@ -192,7 +198,7 @@
   color: white;
 }
 
-.call-to-action h3, h5 {
+.call-to-action > h3, h5 {
   margin-bottom: 44px;
   text-align: center;
 }
