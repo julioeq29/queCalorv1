@@ -1,9 +1,9 @@
 .banner {
   /*background-color: #3ae89c;
   background: linear-gradient(90deg, #3ae89c 60%, #13234c 60%);*/
-  background: linear-gradient(90deg, #3ae89c 60%, rgba(0,0,0,0) 30%), 
+  background: linear-gradient(90deg, #3ae89c 60%, rgba(0,0,0,0) 30%),
               linear-gradient(0deg, #13234c 33%, rgba(0,0,0,0) 30%),
-              linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)), 
+              linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)),
               url('../../images/park.png');
   object-fit: cover;
   background-position: center;
@@ -41,7 +41,7 @@
 .card-welcome-text {
   background-color: #13234c;
   color: white;
-  margin-top: 66vh;  
+  margin-top: 66vh;
 }
 
 .card-welcome-text > p {
@@ -73,23 +73,15 @@
 
   .card-welcome-left > h1 {
     font-size: 44px;
-    padding-top: 64px;
+    padding-top: 44px;
   }
 
   .card-welcome-left .buttons {
-    margin-top: 18px;
+    margin-top: 0px;
   }
 
-  .card-welcome-left .btn-subscribe-2 {
-    margin-top: 28px;
-    margin-right: 42px;
-  }
-
-  .buttons {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    margin-bottom: 24px;
+  .welcome-bottom {
+    margin-top: 48px;
   }
 
   .welcome-bottom a {
