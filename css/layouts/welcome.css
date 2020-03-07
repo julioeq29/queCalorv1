@@ -135,7 +135,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .banner {
     background: #3ae89c;
   }
